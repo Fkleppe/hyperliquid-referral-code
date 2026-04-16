@@ -69,7 +69,7 @@ export default function Page() {
         id="fees"
         label="Fee structure"
         title={<>Every tier. Both markets. Minus 4%.</>}
-        lede="Hyperliquid uses tiered fees based on your rolling 14-day volume. AWD reduces whichever tier you're on by an additional 4% for your first $25M."
+        lede="Hyperliquid uses tiered fees based on your rolling 14-day trading volume. AWD stacks on top — reducing whichever tier you land on by an additional 4%."
       >
         <FeeTables />
       </Section>

@@ -13,7 +13,7 @@ export function BigCta() {
           <span className="shimmer-text">code AWD applied.</span>
         </h2>
         <p className="mt-6 text-white/65 max-w-xl mx-auto text-lg">
-          One click. 4% off every trade for your first $25M in volume. No KYC, no minimum deposit, no catch.
+          One click attaches AWD to your wallet and puts 4% off on every trade — perp and spot. No KYC, no minimum deposit, no catch.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
           <a

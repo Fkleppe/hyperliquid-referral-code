@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { Logo } from './Logo';
 
 export function Hero() {
   const [copied, setCopied] = useState(false);
@@ -30,25 +31,18 @@ export function Hero() {
               <span className="absolute inline-flex h-full w-full rounded-full bg-mint-200 opacity-70 animate-pulse-ring" />
               <span className="relative inline-flex h-2 w-2 rounded-full bg-mint-300" />
             </span>
-            <span className="font-mono tracking-[0.15em] text-[11px] text-mint-200/90">MAX DISCOUNT · 4% OFF · FIRST $25M VOLUME</span>
+            <span className="font-mono tracking-[0.15em] text-[11px] text-mint-200/90">MAXIMUM FEE DISCOUNT · 4% OFF EVERY TRADE</span>
           </div>
         </div>
 
-        {/* mark */}
+        {/* Hyperliquid mark */}
         <div className="flex justify-center mb-10">
-          <svg width="72" height="72" viewBox="0 0 72 72" aria-hidden>
-            <defs>
-              <linearGradient id="h-mark" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stopColor="#97FCE4" />
-                <stop offset="1" stopColor="#2FE5B8" />
-              </linearGradient>
-              <filter id="h-glow"><feGaussianBlur stdDeviation="3" /></filter>
-            </defs>
-            <g filter="url(#h-glow)" opacity="0.6">
-              <path d="M16 22 Q36 8 56 22 Q42 36 56 50 Q36 64 16 50 Q30 36 16 22 Z" fill="url(#h-mark)" />
-            </g>
-            <path d="M16 22 Q36 8 56 22 Q42 36 56 50 Q36 64 16 50 Q30 36 16 22 Z" fill="url(#h-mark)" />
-          </svg>
+          <div className="relative">
+            <div aria-hidden className="absolute inset-0 blur-2xl opacity-70 scale-125">
+              <Logo size={72} />
+            </div>
+            <Logo size={72} />
+          </div>
         </div>
 
         {/* headline */}
@@ -82,8 +76,8 @@ export function Hero() {
         {/* trust row */}
         <div className="mt-14 grid grid-cols-2 md:grid-cols-4 gap-px rounded-2xl overflow-hidden border border-mint-200/10 bg-mint-200/[0.02]">
           {[
-            { k: '4%', v: 'Fee discount' },
-            { k: '$25M', v: 'Volume cap' },
+            { k: '4%', v: 'Max fee discount' },
+            { k: 'Perp + Spot', v: 'Both markets' },
             { k: '0', v: 'KYC required' },
             { k: '∞', v: 'Never expires' },
           ].map((s) => (

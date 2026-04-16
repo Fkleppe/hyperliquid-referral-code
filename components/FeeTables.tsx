@@ -55,7 +55,7 @@ function FeeCard({ title, rows }: { title: string; rows: string[][] }) {
         </tbody>
       </table>
       <p className="px-6 py-4 text-xs text-white/45 border-t border-mint-200/10">
-        AWD reduces these fees by an additional 4% for your first $25M in volume.
+        AWD reduces whatever tier you are on by an additional 4% — on top of the rates shown here.
       </p>
     </div>
   );

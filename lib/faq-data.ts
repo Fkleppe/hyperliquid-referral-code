@@ -9,7 +9,7 @@ export const FAQ_DATA = [
   },
   {
     q: 'Does the code expire?',
-    a: 'The code never expires. The 4% discount applies to your first $25M in cumulative volume. Volume-based tier discounts take over after that.',
+    a: 'No. AWD never expires. Once attached to your wallet, the 4% discount is live on every trade you place — perp or spot.',
   },
   {
     q: 'Can I change my referral code later?',

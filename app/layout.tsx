@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: 'Hyperliquid Referral Code AWD — Save 4% on Every Trade (Max Discount)',
   description:
-    'Use Hyperliquid referral code AWD to lock in the maximum 4% trading fee discount. Works on perps and spot, stacks with HYPE staking, first $25M in volume.',
+    'Use Hyperliquid referral code AWD to lock in the maximum 4% trading fee discount. Works on perps and spot, stacks with HYPE staking, never expires.',
   keywords: [
     'hyperliquid referral code',
     'hyperliquid referral code AWD',
